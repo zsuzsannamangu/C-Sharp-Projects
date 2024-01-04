@@ -18,7 +18,7 @@ namespace mathOperations
             Console.WriteLine(divide);
             int remainder = num1 % num2; //display the remainder after dividing two numbers
             Console.WriteLine(remainder);
-            Console.ReadLine();
+            Console.ReadLine(); //added
         }
     }
 }
