@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\Basic_C#_Programs\accountingApp\accountingApp.cs\bin\Debug\accountingApp.cs.exe.config
+C:\Users\zsuzsi\Documents\Basic_C#_Programs\accountingApp\accountingApp.cs\bin\Debug\accountingApp.cs.exe
+C:\Users\zsuzsi\Documents\Basic_C#_Programs\accountingApp\accountingApp.cs\bin\Debug\accountingApp.cs.pdb
+C:\Users\zsuzsi\Documents\Basic_C#_Programs\accountingApp\accountingApp.cs\obj\Debug\accountingApp.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\Basic_C#_Programs\accountingApp\accountingApp.cs\obj\Debug\accountingApp.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\Basic_C#_Programs\accountingApp\accountingApp.cs\obj\Debug\accountingApp.cs.exe
+C:\Users\zsuzsi\Documents\Basic_C#_Programs\accountingApp\accountingApp.cs\obj\Debug\accountingApp.cs.pdb
