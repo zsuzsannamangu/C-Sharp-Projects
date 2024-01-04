@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\carInsuranceApproval\carInsuranceApproval.cs\bin\Debug\carInsuranceApproval.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\carInsuranceApproval\carInsuranceApproval.cs\bin\Debug\carInsuranceApproval.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\carInsuranceApproval\carInsuranceApproval.cs\bin\Debug\carInsuranceApproval.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\carInsuranceApproval\carInsuranceApproval.cs\obj\Debug\carInsuranceApproval.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\carInsuranceApproval\carInsuranceApproval.cs\obj\Debug\carInsuranceApproval.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\carInsuranceApproval\carInsuranceApproval.cs\obj\Debug\carInsuranceApproval.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\carInsuranceApproval\carInsuranceApproval.cs\obj\Debug\carInsuranceApproval.cs.pdb
