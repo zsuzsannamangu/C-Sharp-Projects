@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\branchingProject\branchingProject.cs\bin\Debug\branchingProject.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\branchingProject\branchingProject.cs\bin\Debug\branchingProject.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\branchingProject\branchingProject.cs\bin\Debug\branchingProject.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\branchingProject\branchingProject.cs\obj\Debug\branchingProject.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\branchingProject\branchingProject.cs\obj\Debug\branchingProject.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\branchingProject\branchingProject.cs\obj\Debug\branchingProject.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\branchingProject\branchingProject.cs\obj\Debug\branchingProject.cs.pdb
