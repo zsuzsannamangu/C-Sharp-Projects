@@ -21,7 +21,7 @@ namespace branchingProject
                 int packageHeight= Convert.ToInt32(Console.ReadLine());//this integer holds the height that user entered
                 Console.WriteLine("Enter package length");
                 int packageLength = Convert.ToInt32(Console.ReadLine());//this integer holds the length that user entered
-                if (packageWidth * packageLength * packageHeight > 50) //if the total dimensions are greater than 50, display message below in {}
+                if (packageWidth + packageLength + packageHeight > 50) //if the total dimensions are greater than 50, display message below in {}
                 {
                     Console.WriteLine("Package too big to be shipped via Package Express. Have a good day!");
                 }
