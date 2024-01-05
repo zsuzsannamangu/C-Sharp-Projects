@@ -67,7 +67,7 @@ namespace iterationApp
                     passingScores.Add(score);
                 }
             }
-            Console.WriteLine(passingScores.Count);
+            Console.WriteLine(passingScores.Count); //for lists we use .Count to see how many elements are in the list, for arrays we use .Length
             Console.ReadLine();
         }
     }
