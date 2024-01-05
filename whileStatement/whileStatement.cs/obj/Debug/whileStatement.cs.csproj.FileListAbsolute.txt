@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\whileStatement\whileStatement.cs\bin\Debug\whileStatement.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\whileStatement\whileStatement.cs\bin\Debug\whileStatement.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\whileStatement\whileStatement.cs\bin\Debug\whileStatement.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\whileStatement\whileStatement.cs\obj\Debug\whileStatement.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\whileStatement\whileStatement.cs\obj\Debug\whileStatement.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\whileStatement\whileStatement.cs\obj\Debug\whileStatement.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\whileStatement\whileStatement.cs\obj\Debug\whileStatement.cs.pdb
