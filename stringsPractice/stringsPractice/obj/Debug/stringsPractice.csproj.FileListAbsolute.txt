@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\stringsPractice\stringsPractice\obj\Debug\stringsPractice.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\stringsPractice\stringsPractice\obj\Debug\stringsPractice.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\stringsPractice\stringsPractice\bin\Debug\stringsPractice.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\stringsPractice\stringsPractice\bin\Debug\stringsPractice.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\stringsPractice\stringsPractice\bin\Debug\stringsPractice.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\stringsPractice\stringsPractice\obj\Debug\stringsPractice.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\stringsPractice\stringsPractice\obj\Debug\stringsPractice.pdb
