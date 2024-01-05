@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\arrayApp\arrayApp.cs\bin\Debug\arrayApp.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\arrayApp\arrayApp.cs\bin\Debug\arrayApp.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\arrayApp\arrayApp.cs\bin\Debug\arrayApp.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\arrayApp\arrayApp.cs\obj\Debug\arrayApp.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\arrayApp\arrayApp.cs\obj\Debug\arrayApp.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\arrayApp\arrayApp.cs\obj\Debug\arrayApp.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\arrayApp\arrayApp.cs\obj\Debug\arrayApp.cs.pdb
