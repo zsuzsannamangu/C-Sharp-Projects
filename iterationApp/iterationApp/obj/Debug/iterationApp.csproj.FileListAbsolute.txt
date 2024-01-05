@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationApp\iterationApp\bin\Debug\iterationApp.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationApp\iterationApp\bin\Debug\iterationApp.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationApp\iterationApp\bin\Debug\iterationApp.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationApp\iterationApp\obj\Debug\iterationApp.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationApp\iterationApp\obj\Debug\iterationApp.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationApp\iterationApp\obj\Debug\iterationApp.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationApp\iterationApp\obj\Debug\iterationApp.pdb
