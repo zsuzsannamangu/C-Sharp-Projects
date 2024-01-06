@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationAssignment\iterationAssignment.cs\bin\Debug\iterationAssignment.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationAssignment\iterationAssignment.cs\bin\Debug\iterationAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationAssignment\iterationAssignment.cs\bin\Debug\iterationAssignment.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationAssignment\iterationAssignment.cs\obj\Debug\iterationAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationAssignment\iterationAssignment.cs\obj\Debug\iterationAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationAssignment\iterationAssignment.cs\obj\Debug\iterationAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\iterationAssignment\iterationAssignment.cs\obj\Debug\iterationAssignment.cs.pdb
