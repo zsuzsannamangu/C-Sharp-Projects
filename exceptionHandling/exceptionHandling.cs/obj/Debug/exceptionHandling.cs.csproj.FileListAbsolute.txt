@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\exceptionHandling\exceptionHandling.cs\bin\Debug\exceptionHandling.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\exceptionHandling\exceptionHandling.cs\bin\Debug\exceptionHandling.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\exceptionHandling\exceptionHandling.cs\bin\Debug\exceptionHandling.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\exceptionHandling\exceptionHandling.cs\obj\Debug\exceptionHandling.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\exceptionHandling\exceptionHandling.cs\obj\Debug\exceptionHandling.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\exceptionHandling\exceptionHandling.cs\obj\Debug\exceptionHandling.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\exceptionHandling\exceptionHandling.cs\obj\Debug\exceptionHandling.cs.pdb
