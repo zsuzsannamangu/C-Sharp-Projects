@@ -40,7 +40,7 @@ namespace exceptionHandling.cs
                 Console.WriteLine(ex.Message);
             }
 
-            finally //The finally blocks runs no matter what and it typically has a database log
+            finally //The finally block runs no matter what and it typically has a database log
             {
                 Console.WriteLine("Thank you!");
             }

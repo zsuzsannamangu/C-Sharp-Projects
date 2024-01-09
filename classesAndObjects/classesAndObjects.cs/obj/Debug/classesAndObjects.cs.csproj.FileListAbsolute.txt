@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndObjects\classesAndObjects.cs\bin\Debug\classesAndObjects.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndObjects\classesAndObjects.cs\bin\Debug\classesAndObjects.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndObjects\classesAndObjects.cs\bin\Debug\classesAndObjects.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndObjects\classesAndObjects.cs\obj\Debug\classesAndObjects.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndObjects\classesAndObjects.cs\obj\Debug\classesAndObjects.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndObjects\classesAndObjects.cs\obj\Debug\classesAndObjects.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndObjects\classesAndObjects.cs\obj\Debug\classesAndObjects.cs.pdb
