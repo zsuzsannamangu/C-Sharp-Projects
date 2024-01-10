@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndMethodsAssignment\Classes_and_Methods_Assignment.cs\bin\Debug\Classes_and_Methods_Assignment.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndMethodsAssignment\Classes_and_Methods_Assignment.cs\bin\Debug\Classes_and_Methods_Assignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndMethodsAssignment\Classes_and_Methods_Assignment.cs\bin\Debug\Classes_and_Methods_Assignment.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndMethodsAssignment\Classes_and_Methods_Assignment.cs\obj\Debug\Classes_and_Methods_Assignment.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndMethodsAssignment\Classes_and_Methods_Assignment.cs\obj\Debug\Classes_and_Methods_Assignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndMethodsAssignment\Classes_and_Methods_Assignment.cs\obj\Debug\Classes_and_Methods_Assignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\classesAndMethodsAssignment\Classes_and_Methods_Assignment.cs\obj\Debug\Classes_and_Methods_Assignment.cs.pdb
