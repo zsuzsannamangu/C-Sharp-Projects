@@ -137,7 +137,8 @@ namespace iterationAssignment.cs
 
             Console.WriteLine("List of fruits: " + string.Join(" ", fruits));
             Console.WriteLine("Select text to search for in the list: "); //user is prompted to select a fruit
-            string fruitSearch = Console.ReadLine(); //user input is saved in the "fruitSearch" string
+            string fruitSearchAsIs = Console.ReadLine();
+            string fruitSearch = fruitSearchAsIs.ToLower(); //user input is saved in the "fruitSearch" string and coverted into lower case
 
             int count = fruits.Where(x => x.Equals(fruitSearch)).Count(); //it counts how many times the word that the user entered appears on the list, that number is saved in the "count" variable
                                                                           //to be able to use Where() you need to add "using System.Linq;"
