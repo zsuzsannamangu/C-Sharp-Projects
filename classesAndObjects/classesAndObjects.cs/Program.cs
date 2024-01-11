@@ -16,7 +16,7 @@ namespace classesAndObjects.cs
             //cardOne.Face = "Queen"; //instead of this, we can create a constructor at Card.cs to assign default values to a class
             //cardOne.Suit = "Spades";
 
-                //to simplify we can also write: Card cardOne = new Card() { Face = "Queen", Suit = "Spades" };
+                //to simplify we can also write: Card cardOne = new Card() { Face = "Queen", Suit = "Spades" }; this is called object initialization
 
             //Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
             //Console.ReadLine();
