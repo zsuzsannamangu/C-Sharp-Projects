@@ -11,6 +11,8 @@ namespace Method_with_Optional_Parameter
             {
                 try
                 {
+                    Addition additionObject = new Addition();
+
                     Console.WriteLine("Enter a number: "); //Prompts the user to enter a number
                     int num1 = Convert.ToInt32(Console.ReadLine()); //User entry is stored in the num1 variable which is an integer
 
@@ -21,11 +23,12 @@ namespace Method_with_Optional_Parameter
                                                                     //bool int.TryParse(string s, out int result) converts the string representation of a number to 32-bit signed integer equivalent
                                                                     //the return value indicates wheather the conversation succeeded
                     {
-                        Console.WriteLine("8 + " + num1 + " + " + num2 + " = " + Addition.AdditionOperation(num1, num2)); //then add all three numbers together
+                        Console.WriteLine("8 + " + num1 + " + " + num2 + " = " + additionObject.AdditionOperation(num1, num2)); //then add all three numbers together
                     }
+                   
                     else
                     {
-                        Console.WriteLine("8 + " + num1 + " = " + Addition.AdditionOperation(num1)); //otherwise only add the first user number and 8 together
+                        Console.WriteLine("8 + " + num1 + " = " + additionObject.AdditionOperation(num1)); //otherwise only add the first user number and 8 together
                     }
                     numValid = true;
                 }
