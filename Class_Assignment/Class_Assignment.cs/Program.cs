@@ -15,7 +15,7 @@ namespace Class_Assignment.cs
             divisionObject.DivideNumbers(userNumber); //Call a method on an object by adding a period after the object name, followed by the name of the method and parentheses
 
             int num2;
-            divisionObject.DivisionTwo(num2); //called the DivisionTwo method with an out parameter
+            divisionObject.DivisionTwo(out num2); //called the DivisionTwo method with an out parameter
 
             decimal decNum = 38.4554m;
             divisionObject.DivideNumbers(decNum); //called the second DivideNumbers method
