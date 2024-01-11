@@ -30,11 +30,13 @@ namespace classesAndObjects.cs
 
             //to be able to see it, we need a foreach loop:
 
-            int timesShuffled = 0; //so we are shuffling a deck 3 times and it's returning the value in the for loop that's incrementing in the Shuffle method
-                                    //but it's not returning it to deck, it's sending it out to this int timesShuffled and assigning it to this var
-            deck = Shuffle(deck, out timesShuffled, 3); //we are reassigning the value to this variable. We can add optional second int parameter to shuffle more than once or not
+            //int timesShuffled = 0; //so we are shuffling a deck 3 times and it's returning the value in the for loop that's incrementing in the Shuffle method
+            //but it's not returning it to deck, it's sending it out to this int timesShuffled and assigning it to this var
+            //deck = Shuffle(deck, out timesShuffled, 3); //we are reassigning the value to this variable. We can add optional second int parameter to shuffle more than once or not
             //deck = Shuffle(deck: deck, times: 3); //it's the same line as above, no difference in outcome, but it makes it easier to read, that is called a named parameter
             //deck = Shuffle(deck, 3);
+
+            deck.Shuffle(3); //we are calling the method on the object deck, on itself
 
             foreach (Card card in deck.Cards)
             {
@@ -45,7 +47,7 @@ namespace classesAndObjects.cs
             //deck.Cards.Add(cardOne); //so we added cardOne to the list, but instead adding one by one we create a constructor in Deck.cs
 
             Console.WriteLine(deck.Cards.Count);
-            Console.WriteLine("Times shuffled {0}", timesShuffled); //0 refers to the variable timesShuffled and what you want to be assigned to that - this is to just format strings
+            //Console.WriteLine("Times shuffled {0}", timesShuffled); //0 refers to the variable timesShuffled and what you want to be assigned to that - this is to just format strings
             Console.ReadLine();
         }
 
@@ -55,29 +57,29 @@ namespace classesAndObjects.cs
         //Shuffle is the name of the method
 
         //out parameters: they have to go before any optional parameter, that is to verify that this deck was shuffled as many times as wanted
-        public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1) //int times = 1 parameter is optional. When you assign a var a default value (here it's 1), you create an optional var
-        {
-            timesShuffled = 0;
-            for (int i = 0; i < times; i++)
-            {
-                timesShuffled++; //adding it at each loop, that's how you 
-                List<Card> TempList = new List<Card>();
+        //public static Deck Shuffle(Deck deck, out int timesShuffled, int times = 1) //int times = 1 parameter is optional. When you assign a var a default value (here it's 1), you create an optional var
+        //{
+        //    timesShuffled = 0;
+        //    for (int i = 0; i < times; i++)
+        //    {
+        //        timesShuffled++; //adding it at each loop, that's how you 
+        //        List<Card> TempList = new List<Card>();
 
-                //C# has a class "Random" from the framework class library to use to create randomity
-                Random random = new Random();
+        //        //C# has a class "Random" from the framework class library to use to create randomity
+        //        Random random = new Random();
 
-                while (deck.Cards.Count > 0) //grab a random card, take it out of the deck and put it into the temporary deck
-                {
-                    int randomIndex = random.Next(0, deck.Cards.Count); //random.Next takes a minimum value of 0 and max of 52
-                    TempList.Add(deck.Cards[randomIndex]);//Then we add it to our Temp.List
-                    deck.Cards.RemoveAt(randomIndex); //RemoveAt is a function of the List method, delete it from the list of cards and we do that until there are no more cards left
-                }
-                //now we take the deck.Cards which is now empty and now we assign TempList to it as a value
-                deck.Cards = TempList;
-            }
+        //        while (deck.Cards.Count > 0) //grab a random card, take it out of the deck and put it into the temporary deck
+        //        {
+        //            int randomIndex = random.Next(0, deck.Cards.Count); //random.Next takes a minimum value of 0 and max of 52
+        //            TempList.Add(deck.Cards[randomIndex]);//Then we add it to our Temp.List
+        //            deck.Cards.RemoveAt(randomIndex); //RemoveAt is a function of the List method, delete it from the list of cards and we do that until there are no more cards left
+        //        }
+        //        //now we take the deck.Cards which is now empty and now we assign TempList to it as a value
+        //        deck.Cards = TempList;
+        //    }
             
-            return deck;
-        }
+        //    return deck;
+        //}
 
         //this is a method if someone wants to shuffle more than once:
         //You can create as many methods as you want with the same name as long as they are kind of different, according to some rules
