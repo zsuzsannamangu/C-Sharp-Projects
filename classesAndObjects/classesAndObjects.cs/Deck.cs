@@ -36,15 +36,9 @@ namespace classesAndObjects.cs
                     Cards.Add(card); //and then we add that new card that we created into our cards list above (Cards = new List<Card>())
 
                     //the variable card (with small c) only exists inside the foreach loop, so once the loop ends, that var doesn't exist anymore
-
                 }
             }
-
-
-
-
         }
-
         public List<Card> Cards { get; set; }
     }
 }
