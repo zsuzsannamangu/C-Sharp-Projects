@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\source\repos\Main_Method_Assignment\Main_Method_Assignment.cs\bin\Debug\Main_Method_Assignment.cs.exe.config
+C:\Users\zsuzsi\source\repos\Main_Method_Assignment\Main_Method_Assignment.cs\bin\Debug\Main_Method_Assignment.cs.exe
+C:\Users\zsuzsi\source\repos\Main_Method_Assignment\Main_Method_Assignment.cs\bin\Debug\Main_Method_Assignment.cs.pdb
+C:\Users\zsuzsi\source\repos\Main_Method_Assignment\Main_Method_Assignment.cs\obj\Debug\Main_Method_Assignment.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\source\repos\Main_Method_Assignment\Main_Method_Assignment.cs\obj\Debug\Main_Method_Assignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\source\repos\Main_Method_Assignment\Main_Method_Assignment.cs\obj\Debug\Main_Method_Assignment.cs.exe
+C:\Users\zsuzsi\source\repos\Main_Method_Assignment\Main_Method_Assignment.cs\obj\Debug\Main_Method_Assignment.cs.pdb
