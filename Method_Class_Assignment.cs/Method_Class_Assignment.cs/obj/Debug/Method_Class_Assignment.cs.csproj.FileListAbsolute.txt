@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Method_Class_Assignment.cs\Method_Class_Assignment.cs\bin\Debug\Method_Class_Assignment.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Method_Class_Assignment.cs\Method_Class_Assignment.cs\bin\Debug\Method_Class_Assignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Method_Class_Assignment.cs\Method_Class_Assignment.cs\bin\Debug\Method_Class_Assignment.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Method_Class_Assignment.cs\Method_Class_Assignment.cs\obj\Debug\Method_Class_Assignment.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Method_Class_Assignment.cs\Method_Class_Assignment.cs\obj\Debug\Method_Class_Assignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Method_Class_Assignment.cs\Method_Class_Assignment.cs\obj\Debug\Method_Class_Assignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Method_Class_Assignment.cs\Method_Class_Assignment.cs\obj\Debug\Method_Class_Assignment.cs.pdb
