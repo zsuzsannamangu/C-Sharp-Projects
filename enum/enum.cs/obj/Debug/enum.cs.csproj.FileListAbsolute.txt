@@ -1,0 +1,2 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\obj\Debug\enum.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\obj\Debug\enum.cs.csproj.CoreCompileInputs.cache
