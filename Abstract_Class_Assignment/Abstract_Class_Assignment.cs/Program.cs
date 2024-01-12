@@ -11,6 +11,9 @@ namespace Abstract_Class_Assignment.cs
 
             Console.WriteLine("Name: " + employee.FirstName + " " + employee.LastName);
 
+            IQuittable quittable = new Employee();
+            quittable.Quit();
+
             Console.ReadLine();
 
         }
