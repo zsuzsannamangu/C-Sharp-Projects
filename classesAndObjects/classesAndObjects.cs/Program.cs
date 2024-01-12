@@ -29,13 +29,16 @@ namespace classesAndObjects.cs
             //game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
             //game.ListPlayers();
 
-            Game game = new TwentyOneGame(); // enables the ability to add a player to any game, this is polymorphism, now to the 21 game
-            game.Players = new List<Player>(); //to add to a list we have to instantiated it first
-            Player player = new Player();
-            player.Name = "Jesse";
+            //Player<Card> player = new Player<Card>(); //so when we create the player object we pass in the datatype that we want the Hand to hold
+            //player.Hand = new List<Card>();
 
-            game += player; //means game = game + player; //the parameters are game and player and it returns a game
-            game -= player;
+            //Game game = new TwentyOneGame(); // enables the ability to add a player to any game, this is polymorphism, now to the 21 game
+            //game.Players = new List<Player>(); //to add to a list we have to instantiated it first
+            //Player player = new Player();
+            //player.Name = "Jesse";
+
+            //game += player; //means game = game + player; //the parameters are game and player and it returns a game
+            //game -= player;
 
             //we create a deck of cards:
             Deck deck = new Deck(); //this is an empty object we created

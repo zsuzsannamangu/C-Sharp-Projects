@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace classesAndObjects.cs
 {
-    class Player
+    public class Player <T>
     {
-        public List<Card> Hand { get; set; } //it is the player's cards
+        public List<T> Hand { get; set; } //it is the player's cards
         public int Balance { get; set; }
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
 
-        public static Game operator+ (Game game, Player player)
+        public static Game operator +(Game game, Player player)
         //Game is the return type
         //we're adding a player here
         //we're overloading the operator plus, it's taking two operands, a game and a player and its returning a game
@@ -22,7 +22,7 @@ namespace classesAndObjects.cs
             return game;
         }
         //subtract overload operator:
-        public static Game operator- (Game game, Player player)
+        public static Game operator -(Game game, Player player)
         {
             game.Players.Remove(player); //it takes the game, it removes a player from it and then returns the game
             return game;
