@@ -8,6 +8,6 @@ namespace classesAndObjects.cs
 {
     interface IWalkAway
     {
-        void WalkAway(Player player);
+        void WalkAway(string player);
     }
 }

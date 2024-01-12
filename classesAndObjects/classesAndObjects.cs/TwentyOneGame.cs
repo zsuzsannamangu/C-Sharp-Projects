@@ -21,7 +21,7 @@ namespace classesAndObjects.cs
             base.ListPlayers();
         }
 
-        public void WalkAway(Player player) //it has to be a void, because that is what we said at IWalkAway which is a void
+        public void WalkAway(string player) //it has to be a void, because that is what we said at IWalkAway which is a void
         {
             throw new NotImplementedException();
         }

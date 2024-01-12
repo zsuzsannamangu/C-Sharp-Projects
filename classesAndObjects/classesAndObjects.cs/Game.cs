@@ -8,7 +8,7 @@ namespace classesAndObjects.cs
 {
     public abstract class Game
     {
-        public List<string> Players { get; set; }
+        public List<Player> Players { get; set; }
         public string Name { get; set; }
         public string Dealer { get; set; }
 
@@ -18,7 +18,7 @@ namespace classesAndObjects.cs
         public virtual void ListPlayers () //void = doesn't return anything, just prints to the console
                                             //virtual means that this method gets inherited from an inheriting class but it has the ability to override it
         {
-            foreach (string player in Players)
+            foreach (Player player in Players)
             {
                 Console.WriteLine(player);
             }
