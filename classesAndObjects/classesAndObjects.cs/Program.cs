@@ -16,10 +16,18 @@ namespace classesAndObjects.cs
             //cardOne.Face = "Queen"; //instead of this, we can create a constructor at Card.cs to assign default values to a class
             //cardOne.Suit = "Spades";
 
-                //to simplify we can also write: Card cardOne = new Card() { Face = "Queen", Suit = "Spades" }; this is called object initialization
+            //to simplify we can also write: Card cardOne = new Card() { Face = "Queen", Suit = "Spades" }; this is called object initialization
 
             //Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
             //Console.ReadLine();
+
+            List<Game> games = new List<Game>();
+            TwentyOneGame game = new TwentyOneGame(); //this is polymorphism, we are adding TwentyOneGame into a list of games
+                                                        //this can be done even if they are different datatypes
+            games.Add(game);
+
+            game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
+            game.ListPlayers();
 
             //we create a deck of cards:
             Deck deck = new Deck(); //this is an empty object we created
