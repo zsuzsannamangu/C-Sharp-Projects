@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Inheritance1.cs\Inheritance1.cs\bin\Debug\Inheritance1.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Inheritance1.cs\Inheritance1.cs\bin\Debug\Inheritance1.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Inheritance1.cs\Inheritance1.cs\bin\Debug\Inheritance1.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Inheritance1.cs\Inheritance1.cs\obj\Debug\Inheritance1.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Inheritance1.cs\Inheritance1.cs\obj\Debug\Inheritance1.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Inheritance1.cs\Inheritance1.cs\obj\Debug\Inheritance1.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\Inheritance1.cs\Inheritance1.cs\obj\Debug\Inheritance1.cs.pdb
