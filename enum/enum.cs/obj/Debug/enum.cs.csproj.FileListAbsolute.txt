@@ -1,2 +1,7 @@
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\obj\Debug\enum.cs.csproj.AssemblyReference.cache
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\obj\Debug\enum.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\bin\Debug\@enum.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\bin\Debug\@enum.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\bin\Debug\@enum.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\obj\Debug\@enum.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\enum\enum.cs\obj\Debug\@enum.cs.pdb
