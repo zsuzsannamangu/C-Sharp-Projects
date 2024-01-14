@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\structAssignment\structAssignment.cs\bin\Debug\structAssignment.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\structAssignment\structAssignment.cs\bin\Debug\structAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\structAssignment\structAssignment.cs\bin\Debug\structAssignment.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\structAssignment\structAssignment.cs\obj\Debug\structAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\structAssignment\structAssignment.cs\obj\Debug\structAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\structAssignment\structAssignment.cs\obj\Debug\structAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\structAssignment\structAssignment.cs\obj\Debug\structAssignment.cs.pdb
