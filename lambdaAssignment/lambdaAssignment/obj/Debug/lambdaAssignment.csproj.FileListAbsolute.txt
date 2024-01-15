@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\lambdaAssignment\lambdaAssignment\bin\Debug\lambdaAssignment.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\lambdaAssignment\lambdaAssignment\bin\Debug\lambdaAssignment.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\lambdaAssignment\lambdaAssignment\bin\Debug\lambdaAssignment.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\lambdaAssignment\lambdaAssignment\obj\Debug\lambdaAssignment.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\lambdaAssignment\lambdaAssignment\obj\Debug\lambdaAssignment.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\lambdaAssignment\lambdaAssignment\obj\Debug\lambdaAssignment.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\lambdaAssignment\lambdaAssignment\obj\Debug\lambdaAssignment.pdb
