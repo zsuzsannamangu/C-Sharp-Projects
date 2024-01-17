@@ -8,6 +8,6 @@ namespace TwentyOneGame.cs
 {
     interface IWalkAway
     {
-        void WalkAway(string player);
+        void WalkAway(Player player);
     }
 }

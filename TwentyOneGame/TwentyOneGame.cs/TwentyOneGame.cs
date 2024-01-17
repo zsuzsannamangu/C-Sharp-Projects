@@ -10,7 +10,7 @@ namespace TwentyOneGame.cs
     //In Blackjack, the player can ask for one or more cards (called a “hit”) until they either go over 21 (“bust”), or they think they have the
     //best possible hand. Once they have all the cards they need, they “stay” or “stand”;
     //meaning they signal to the dealer that they don’t want any more cards. Each subsequent player then decides whether to hit or stand.
-    public class TwentyOneGame: Game //TwentyOneGame inherits from the Game class, which is a base/abstract class
+    public class TwentyOneGame: Game, IWalkAway //TwentyOneGame inherits from the Game class, which is a base/abstract class
     {
         public TwentyOneDealer Dealer { get; set; } //it has a Dealer property, the dealer is specific to the 21 game that's why it is not in the Dealer class
         public override void Play() //Play() is abstract method in the Game class, which means we have to have an implementation of it here

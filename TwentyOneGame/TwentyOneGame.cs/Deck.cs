@@ -12,34 +12,20 @@ namespace TwentyOneGame.cs
         {
             Cards = new List<Card>(); //first thing the constructor does is that it instantiates its property "Cards" as an empty list of Cards
 
-            //then two more lists are created and immediately instantiates it with values:
-
-            //List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; //4 items
-            //List<string> Faces = new List<string>() { "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace" };// 13 items
-
-            ////13x4 is 52, which is the total amount of cards in the deck
-
-            ////create a nested foreach loop
-            ////loops thru both lists to generate a deck of 52 cards
-
-            ////so for each of these items in the Faces list, we loop through 4 times
-
-
-            //foreach (string face in Faces)
-            //{
-            //    foreach (string suit in Suits)
-            //    {
-            //        Card card = new Card(); //during each loop we create a card
-            //        card.Suit = suit;  //and then we assign the Suit property the value of suit, which will be Clubs first, then Hearts etc
-            //        card.Face = face; //and then we assign the Face the face
-            //        Cards.Add(card); //and then we add that new card that we created into our cards list above (Cards = new List<Card>())
-
-            //        //the variable card (with small c) only exists inside the foreach loop, so once the loop ends, that var doesn't exist anymore
-            //    }
-            //}
+            //we are creating a nested for loop, it loops through both lists to generate a deck of 52 cards (13 x 4 = 52):
+            for (int i = 0; i < 13; i++) //there are 13 faces: "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
+            {
+                for (int j = 0; j < 4; j++) //there are 4 suits: "Clubs", "Hearts", "Diamonds", "Spades"; for each of these items in the Faces list, we loop through 4 times
+                {
+                    Card card = new Card(); //creates Card object
+                    card.Face = (Face)i; //Face should be the Face at i
+                    card.Suit = (Suit)j; //Suit should be the Suit at j
+                    Cards.Add(card); //adds card to the pile of cards
+                }
+            }
         }
-        private List<Card> _cards = new List<Card>();
-        public List<Card> Cards { get { return _cards; } set { _cards = value; } } //Deck class has one property: Cards which is a list
+        private List<Card> _cards = new List<Card>(); //creates private property _cards
+        public List<Card> Cards { get { return _cards; } set { _cards = value; } } //Deck class has one property: Cards which is a public list
         public void Shuffle(int times = 1) //int times = 1 parameter is optional. When you assign a var a default value (here it's 1), you create an optional variable
         {
             for (int i = 0; i < times; i++)
@@ -49,14 +35,14 @@ namespace TwentyOneGame.cs
                 //C# has a class "Random" from the framework class library to create randomity
                 Random random = new Random();
 
-                while (Cards.Count > 0) //grab a random card, take it out of the deck and put it into the temporary deck
+                while (Cards.Count > 0) //grabs a random card, takes it out of the deck and puts it into the temporary deck named TempList
                 {
-                    int randomIndex = random.Next(0, Cards.Count); //random.Next takes a minimum value of 0 and max of 52
+                    int randomIndex = random.Next(0, Cards.Count); //random.Next takes a minimum value of 0 and maximum of 52 = Cards.Count
                     TempList.Add(Cards[randomIndex]);//Then we add it to our Temp.List
-                    Cards.RemoveAt(randomIndex); //RemoveAt is a function of the List method, delete it from the list of cards and we do that until there are no more cards left
+                    Cards.RemoveAt(randomIndex); //RemoveAt is a function of the List method, deletes it from the list of cards and we do that until there are no more cards left
                 }
-                //now we take the Deck.Cards which is now empty and now we assign TempList to it as a value:
-                //this.Cards = TempList; //this keyword is referring to itself, its own object, but not necessary
+                //now we take the Deck.Cards which is now empty and we assign TempList to it as a value:
+                //this.Cards = TempList; //this keyword is referring to itself, its own object, but can be omitted:
                 Cards = TempList;
             }
         }
