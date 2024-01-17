@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\InputTextAssignment\InputTextAssignment.cs\bin\Debug\InputTextAssignment.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\InputTextAssignment\InputTextAssignment.cs\bin\Debug\InputTextAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\InputTextAssignment\InputTextAssignment.cs\bin\Debug\InputTextAssignment.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\InputTextAssignment\InputTextAssignment.cs\obj\Debug\InputTextAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\InputTextAssignment\InputTextAssignment.cs\obj\Debug\InputTextAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\InputTextAssignment\InputTextAssignment.cs\obj\Debug\InputTextAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\InputTextAssignment\InputTextAssignment.cs\obj\Debug\InputTextAssignment.cs.pdb
