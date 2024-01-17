@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\DateTimeAssignment.cs\DateTimeAssignment.cs\obj\Debug\DateTimeAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\DateTimeAssignment.cs\DateTimeAssignment.cs\obj\Debug\DateTimeAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\DateTimeAssignment.cs\DateTimeAssignment.cs\bin\Debug\DateTimeAssignment.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\DateTimeAssignment.cs\DateTimeAssignment.cs\bin\Debug\DateTimeAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\DateTimeAssignment.cs\DateTimeAssignment.cs\bin\Debug\DateTimeAssignment.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\DateTimeAssignment.cs\DateTimeAssignment.cs\obj\Debug\DateTimeAssignment.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\DateTimeAssignment.cs\DateTimeAssignment.cs\obj\Debug\DateTimeAssignment.cs.pdb
