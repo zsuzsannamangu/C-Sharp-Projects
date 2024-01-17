@@ -18,7 +18,7 @@ namespace TwentyOneGame.cs
         public void Deal(List<Card> Hand) //void methods don't have a return value
                                           //inside of the Deal() method we are writing what we are dealing
         {
-            Hand.Add(Deck.Cards.First()); //we are adding a card to the hand that passed in
+            Hand.Add(Deck.Cards.First()); //we are adding a card to the hand
             string card = String.Format(Deck.Cards.First().ToString() + "\n"); //every time a card is dealt, we log that into our log file
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\zsuzsi\Documents\logs\log.txt", true)) //we're dealing with unmanaged code, so everything should be disposed off to clean memory
