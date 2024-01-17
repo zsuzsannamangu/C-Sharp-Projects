@@ -19,7 +19,8 @@ namespace TwentyOneGame.cs
             Name = name;
 
         }
-        public List<Card> Hand { get; set; }
+        private List<Card> _hand = new List<Card>();
+        public List<Card> Hand { get { return _hand; } set { _hand = value; } }
         public int Balance { get; set; }
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
@@ -42,7 +43,7 @@ namespace TwentyOneGame.cs
 
         public static Game operator +(Game game, Player player)
         {
-            game.Players.Add(player);
+            game.Players.Add(player); //you always have to instantiate a list otherwise it breaks the code if you want to add something to it
             return game;
         }
             

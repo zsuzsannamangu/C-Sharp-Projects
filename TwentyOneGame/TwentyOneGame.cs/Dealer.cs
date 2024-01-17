@@ -15,8 +15,8 @@ namespace TwentyOneGame.cs
         public void Deal(List<Card> Hand) //void methods don't have a return value
                                           //inside of the Deal() method we are writing what we are dealing
         {
-            Hand.Add(Deck.Cards.First());
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n");
+            Hand.Add(Deck.Cards.First()); //we are adding a card to the hand that passed in
+            Console.WriteLine(Deck.Cards.First().ToString() + "\n"); //and then we write to the console which card that was
             Deck.Cards.RemoveAt(0);
         }
     }

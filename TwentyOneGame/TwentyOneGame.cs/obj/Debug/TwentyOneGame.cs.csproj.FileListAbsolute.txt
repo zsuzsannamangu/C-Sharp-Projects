@@ -1,0 +1,7 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\TwentyOneGame\TwentyOneGame.cs\obj\Debug\TwentyOneGame.cs.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\TwentyOneGame\TwentyOneGame.cs\obj\Debug\TwentyOneGame.cs.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\TwentyOneGame\TwentyOneGame.cs\bin\Debug\TwentyOneGame.cs.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\TwentyOneGame\TwentyOneGame.cs\bin\Debug\TwentyOneGame.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\TwentyOneGame\TwentyOneGame.cs\bin\Debug\TwentyOneGame.cs.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\TwentyOneGame\TwentyOneGame.cs\obj\Debug\TwentyOneGame.cs.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\TwentyOneGame\TwentyOneGame.cs\obj\Debug\TwentyOneGame.cs.pdb

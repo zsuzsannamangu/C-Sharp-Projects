@@ -20,7 +20,7 @@ namespace TwentyOneGame.cs
             {
                 Player player = new Player(playerName, bank); //created a player object and we initialized them with their name and their initial balance
                                                               //to do that, we'll create a Player constructor in player.cs first
-                Game game = new TwentyOneGame(); //here we created a game
+                Game game = new TwentyOneGame(); //here we created a game object
                 game += player; //game = game + player, we are adding a player to the game
                 player.isActivelyPlaying = true; //isActivelyPlaying is a property of Player in Player.cs
                                                    //we are setting that to true because the player is playing now
