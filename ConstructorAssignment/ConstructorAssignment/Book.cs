@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace ConstructorAssignment
 {
@@ -14,7 +10,7 @@ namespace ConstructorAssignment
 
         public Book (string title, int readingTime) //creates constructor with 2 parameters, title and reading time
         {
-            Title = title;
+            Title = title; //we can refer to this at the Main() class by this.Title and give the "Book" constructor's (string) "title" parameter a value
             ReadingTime = readingTime;
         }
         public string Title { get; set; } //sets properties Title and ReadingTime

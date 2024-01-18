@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConstructorAssignment
 {
@@ -16,11 +12,15 @@ namespace ConstructorAssignment
     {
         static void Main()
         {
-            const string bookClubName = "Our Bookclub"; //creates a constant variable, using constant here because the name of the bookclub won't change
-            var newBook = "Rooted in Hope"; //creates a variable without declaring the datatype, using the var keyword
+            const string bookClubName = "Our Bookclub"; //Creates a constant variable, using constant here because the name of the bookclub won't change
 
-            Console.WriteLine("{0} is reading: {1}.", bookClubName, newBook); //prints to the console
-            Console.ReadLine(); //prevents the console window from closing automatically
+            var bookOne = new Book("Rooted in Hope"); //Initiates a Book object without declaring its datatype. Using the generic var keyword and let C# figure out the datatype
+            Console.WriteLine(bookClubName + $" read {bookOne.Title} for {bookOne.ReadingTime} hours."); // Prints out Our Bookclub read Rooted in Hope for 14 hours. 14 is the default value for ReadingTime
+
+            Book bookTwo = new Book("Dragonbreath", 20); //we are initiating another Book object declaring Book at the datatype, we give two arguments here
+            Console.WriteLine(bookClubName + $" read {bookTwo.Title} for {bookTwo.ReadingTime} hours."); // Prints out Our Bookclub read Dragonbreath for 20 hours. 20 is the given value for ReadingTime
+
+            Console.ReadLine(); //Prevents the console window from closing automatically
         }
     }
 }
