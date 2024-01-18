@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TryCatchAssignment
 {
@@ -17,29 +13,32 @@ namespace TryCatchAssignment
 
         static void Main()
         {
-            bool numValid = false; //Sets numValid variable to false, it will change to True at the end of the try block
-            while (!numValid) //while the number entered is valid, the try block will run, otherwise the catch block will run
+            bool numValid = false; //we set the initial value of the numValid to false, it will change to true at the end of the try block
+            while (!numValid) //while numValid is false
             {
                 try
                 {
-                    Console.WriteLine("What is your age?");
-                    int age = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("What is your age?"); //asks user to enter their age
+                    int age = Convert.ToInt32(Console.ReadLine()); //saves user input an integer named age
+                    if (age <= 0 || age > 130) //if age is a negative number, zero or bigger than 130
+                    {
+                        Console.WriteLine("Please enter a whole number that is between 1 and 130."); //display this message
+                        numValid = false; //numValid is false = it is not a valid number
+                    }
+                    else //if age is a positive number and it's between 1-130, execute this code:
+                    {
+                        DateTime currentDateTime = DateTime.Now; //gets current date and time and saves it the currentDateTime variable
+                        int currentYear = currentDateTime.Year;//gets only the year from the currentDateTime variable and saves it in the currentYear variable
 
-                    DateTime currentDateTime = DateTime.Now;
-
-                    int currentYear = currentDateTime.Year;
-
-                    int userBirthYear = currentYear - age;
-                    Console.WriteLine("You were born in {0}", userBirthYear);
-                    numValid = true;
-                }
-
-
+                        int userBirthYear = currentYear - age; //subtracts user's age from the current year to get the user's year of birth
+                        Console.WriteLine("You were born in {0}.", userBirthYear); //displays user's year of birth to the console
+                        numValid = true; //numValid now becomes true and the while loop ends
+                    }
+                }//if the while loop is still running, as numValid is still false, the catch block will execute
                 catch (FormatException) //This error message appears if the user enters something other than a number
                 {
-                    Console.WriteLine("Please enter a whole number!");
+                    Console.WriteLine("Please only enter numbers!");
                 }
-
                 catch (Exception) //This is a general error message for another issue not stated above
                 {
                     Console.WriteLine("Something went wrong. Please contact your system administrator.");
@@ -49,7 +48,7 @@ namespace TryCatchAssignment
                 {
                     Console.WriteLine("Thank you!");
                 }
-                Console.ReadLine();
+                Console.ReadLine(); //this line prevents the console window from closing automatically
             }
         }
     }
