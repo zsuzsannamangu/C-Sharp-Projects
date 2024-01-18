@@ -8,8 +8,12 @@ namespace TwentyOneGame.cs
 {
     public class Player
     {
+        public Player (string name) : this(name, 100) //Constructor callchain: this constructor inherits from the previous constructor (the one below)
+        {                                             //It says: assign name to name, but if the user doesn't provide a beginning balance, automatically assign the default 100
+        }                                             //No implementation is necessary
+                                                      //in the Player class, when you add: Player newPlayer = new Player ("Jesse"), it will assign 100 to Jesse's balance
 
-        //Creates a constructor. Constructors always go on the top of the class and have the same name as the class
+        //public Player () creates a constructor. Constructors always go on the top of the class and have the same name as the class:
         //Constructor is a method that is used initialize objects and set default values for fields. They don't have a return type.
         //A constructor is called when an object of a class is created.
         public Player (string name, int beginningBalance) //this constructor takes 2 parameters and it's going to assign some values
@@ -25,6 +29,7 @@ namespace TwentyOneGame.cs
         public string Name { get; set; }
         public bool isActivelyPlaying { get; set; }
         public bool Stay { get; set; }
+        public Guid Id { get; set; }
 
         public bool Bet(int amount) //it returns a boolean because in this logic we also check whether the player even has that amount
                                     //Bet() has one parameter: amount => the player enters the amount they are betting
