@@ -27,11 +27,26 @@ namespace TwentyOneGame.cs
             Dealer.Stay = false;
             Dealer.Deck = new Deck(); //we want the deck to be a new deck
             Dealer.Deck.Shuffle(); //we shuffle the deck
-            Console.WriteLine("Place your bet!");
 
             foreach (Player player in Players) //loop through each player and have them place a bet
             {
-                int bet = Convert.ToInt32(Console.ReadLine()); //we'll have a message on the screen where the user will enter their bet
+                bool validAnswer = false;
+                int bet = 0; //sets the initial value of bank to zero
+                while (!validAnswer) //while validAnswer is false
+                {
+                    Console.WriteLine("Place your bet!");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet); //same as Int32.TryParse(). TryParse() is a method, it takes a string in (Console.ReadLine() here)
+                                                                              //and it has an out parameter, it's assigning a value to this result and it's sending it out back to int bet
+                                                                              //TryParse() returns true if it was converted successfully from string to ints, otherwise it returns false
+                    if (!validAnswer) //if validAnswer is false, show this message:
+                    {
+                        Console.WriteLine("Please enter digits only, no decimals.");
+                    }
+                }
+                if (bet < 0)
+                {
+                    throw new FraudException();
+                }
                 bool successfullyBet = player.Bet(bet); //refers to the Bet() method in the Player class, the player is doing the betting, so we should keep that method there
                                                         //we pass in the amount they enter (bet variable) into the Bet() method
                 if (!successfullyBet) //= if (successfullyBet == false)

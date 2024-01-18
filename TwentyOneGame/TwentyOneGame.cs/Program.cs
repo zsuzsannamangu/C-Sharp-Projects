@@ -22,8 +22,20 @@ namespace TwentyOneGame.cs
             const string casinoName = "Grand Hotel and Casino"; //declares a constant variable as we know the name of the casino won't change
             Console.WriteLine("Welcome to the {0}! What is your name?", casinoName);
             string playerName = Console.ReadLine();
-            Console.WriteLine("How much money did you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
+
+            bool validAnswer = false;
+            int bank = 0; //sets the initial value of bank to zero
+            while (!validAnswer) //while validAnswer is false
+            {
+                Console.WriteLine("And how much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank); //same as Int32.TryParse(). TryParse() is a method, it takes a string in (Console.ReadLine() here)
+                                                                          //and it has an out parameter, it's assigning a value to this result and it's sending it out back to int bank
+                                                                          //TryParse() returns true if it was converted successfully from string to ints, otherwise it returns false
+                if (!validAnswer) //if validAnswer is false, show this message:
+                {
+                    Console.WriteLine("Please enter digits only, no decimals.");
+                }
+            }
             Console.WriteLine("Hello, {0}! Would you like to join a 21 game right now?", playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
@@ -41,7 +53,24 @@ namespace TwentyOneGame.cs
                                                    //we are setting that to true because the player is playing now
                 while (player.isActivelyPlaying && player.Balance > 0) //as long as the player wants to keep playing and has enough money, the while loop will continue
                 {
-                    game.Play(); //we call the Play() method here
+                    try //we wrap our Play() method in a try catch, so if it catches any exceptions that happen in the main method Play(), it will handle that
+                    {
+                        game.Play(); //we call the Play() method here
+                    }
+                    catch (FraudException) //we start with specific exceptions, as exceptions are run in order
+                    {
+                        Console.WriteLine("Security! Kick this person out!");
+                        Console.ReadLine();
+                        return; //return; in a void method ends the method
+                    }
+                    catch (Exception) //general exception, gives user a generic error message
+                    {
+                        Console.WriteLine("An error occured. Please contact your System Administrator.");
+                        Console.ReadLine();
+                        return; //return; in a void method ends the method
+                    }
+
+                    
                 }
                 game -= player; //if while loop isn't continuing, we want to subtract player from the game
                 Console.WriteLine("Thank you for playing!");
