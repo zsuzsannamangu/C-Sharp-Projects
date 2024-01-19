@@ -45,7 +45,7 @@ namespace TwentyOneGame.cs
                 }
                 if (bet < 0)
                 {
-                    throw new FraudException();
+                    throw new FraudException("Security! Kick this person out!");
                 }
                 bool successfullyBet = player.Bet(bet); //refers to the Bet() method in the Player class, the player is doing the betting, so we should keep that method there
                                                         //we pass in the amount they enter (bet variable) into the Bet() method
