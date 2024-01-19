@@ -1,0 +1,38 @@
+﻿<div class="row no-gutters m-3">
+<!--no-gutters means no spaces between the columns and m-3 means that we'll have a margin all around this div-->
+
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <!--on a small screen it will have 12 columns, on a medium screen 10 columns and on a large screen 6 columns-->
+        <!--the card will be centered in the middle: mx-auto, the margin on the x axis will set to auto, that means equal margin on both sides, so it's centered'-->
+        <!--we added a box shadow to this card-->
+        <div class="card-header text-center">
+            <h5 class="m-0">Sign up to our newsletter</h5>
+            <!--built in into the h5 property is a margin at the bottom, about 10px, we get rid off that with m-0-->
+        </div>
+        <div class="card-body">
+            <!--we are creating a form:-->
+            <!--Html.BeginForm generates a complicated HTML, it is an HTML helper. We provide it the controller endpoint that we will call when they submit the form
+                It is a SignUp method inside of the HomeController and the method that we are using is post, bc we are submitting information to the server-->
+            @using (Html.BeginForm("SignUp", "Home", FormMethod.Post))
+            {
+            <div class="row no-gutters">
+                <div class="form-group col-md-12">
+                    <input name="FirstName" type="text" class="form-control" placeholder="First Name" />
+                </div>
+                <div class="form-group col-md-12">
+                    <input name="LastName" type="text" class="form-control" placeholder="Last Name"/>
+                </div>
+                <div class="form-group col-md-12">
+                    <input name="EmailAddress" type="email" class="form-control" placeholder="Email"/>
+                </div>
+                <button type="submit" class="btn btn-block btn-primary">Submit</button>
+                <!--btn-block means it will take up the entire row, to remove gutters add no-gutters in the row class-->
+            </div>
+            <!--now we need to create a controller method for this form to submit information to-->
+            }
+
+
+        </div>
+    </div>
+
+</div>

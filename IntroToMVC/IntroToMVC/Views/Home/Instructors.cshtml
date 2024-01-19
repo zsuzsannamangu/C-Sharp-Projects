@@ -1,0 +1,17 @@
+﻿@using IntroToMVC.Models
+<!--the above code refers to the Instructor class in Models, with adding the using statement, we don't have to prefix it IntroToMVC.Models every time we want to use it-->
+@model List<Instructor>
+<!--Below any using statements we define our Model, atmodel means there is a model and its datatype follows-->
+@{
+    ViewBag.Title = "Instructors";
+}
+
+<h2>Instructors</h2>
+
+@{ 
+    foreach (Instructor instructor in Model)
+    {
+        <h4>@instructor.FirstName</h4>
+    }
+}
+<!--after you declare your model at the tope with atmodels, you can reference it anywhere in the HMTL with the word Model-->

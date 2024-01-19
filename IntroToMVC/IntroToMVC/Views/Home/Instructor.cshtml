@@ -1,0 +1,23 @@
+﻿@model IntroToMVC.Models.Instructor
+<!--the above code lets you get access to the model passed from the controller, add it at the top of the page, along with the datatype, here: "Instructor"-->
+@{
+    ViewBag.Title = "Instructor";
+}
+
+<h2>Instructor</h2>
+
+<h5>
+    Details for Instructor with ID: @ViewBag.Id
+</h5>
+
+<ul>
+    <li>
+        Another Id: @Model.Id
+    </li>
+    <li>
+        First Name: @Model.FirstName
+    </li>
+    <li>
+        Last Name: @Model.LastName
+</ul>
+<!--to reference the model passed from the controller, use at@Model with capital M, as above -->

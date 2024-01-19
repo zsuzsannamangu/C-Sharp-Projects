@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    @Styles.Render("~/Content/css")
+    <!--these Razor tages import css and javascript for us. They correspond to a bundle, defined in the BundleConfig.cs file located in App_Start-->
+    <!--"~/Content/css" is defined at the bottom of the BundleConfig.cs file, it shows what css files the bundle includes, which are located in the Content folder-->
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+        <!--atRenderBody() is all the content in Index.cshtml-->
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <!--these are also bundles that are defined in the BundleConfig.cs, which shows where the local copy of them is (in the Scripts folder)-->
+    <!--min means it a minified version, all white spaces are deleted to safe space-->
+    @RenderSection("scripts", required: false)
+    <!--RenderSection: if you have a library installed only for one page out of 100 pages in your application, you don't want to import that in your layout file, because
+        that means that you are loading that script on every page, which is wasteful. So the RenderSection tab allows you in your Views render only for that specific page/view
+        and it does that after all other Render-->
+</body>
+</html>
