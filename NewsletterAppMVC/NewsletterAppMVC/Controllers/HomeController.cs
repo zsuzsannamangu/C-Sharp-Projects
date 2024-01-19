@@ -1,11 +1,11 @@
-﻿using System;
+﻿using NewsletterAppMVC.Models;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using NewsletterSignup.Model;
 
 namespace NewsletterAppMVC.Controllers
 {
@@ -57,23 +57,23 @@ namespace NewsletterAppMVC.Controllers
         public ActionResult Admin()
         {
             string queryString = @"SELECT Id, FirstName, LastName, EmailAddress from Signups";
-            List<NewsletterSignUp> signups = new List<NewsletterSignUp>();
+            List<NewsletterSignup> signups = new List<NewsletterSignup>(); //initalize it as an empty list
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            using (SqlConnection connection = new SqlConnection(connectionString)) //we open the connection and wrap it in a using statement
             {
-                SqlCommand command = new SqlCommand(queryString, connection);
-                connection.Open();
+                SqlCommand command = new SqlCommand(queryString, connection); //generate our command
+                connection.Open(); //open connection
 
-                SqlDataReader reader = command.ExecuteReader();
+                SqlDataReader reader = command.ExecuteReader(); //we create a data reader to read the information
 
                 while (reader.Read())
                 {
-                    var signup = new NewsletterSignUp();
-                    signup.Id = Convert.ToInt32(reader["Id"]);
+                    var signup = new NewsletterSignup(); //we declare a new object
+                    signup.Id = Convert.ToInt32(reader["Id"]); //we are assigning the properties to the incoming values
                     signup.FirstName = reader["FirstName"].ToString();
                     signup.FirstName = reader["LastName"].ToString();
                     signup.EmailAddress = reader["EmailAddress"].ToString();
-                    signups.Add(signup);
+                    signups.Add(signup); //we add our newsletter signup to our list
                 }
             }
 
