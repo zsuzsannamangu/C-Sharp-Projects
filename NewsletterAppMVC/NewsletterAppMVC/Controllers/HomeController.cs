@@ -86,7 +86,7 @@ namespace NewsletterAppMVC.Controllers
                 signupVm.FirstName = signup.FirstName; //we are mapping properties
                 signupVm.LastName = signup.LastName;
                 signupVm.EmailAddress = signup.EmailAddress;
-                signupVms.Add(signupVm);
+                signupVms.Add(signupVm);//we add it to our list
             }
 
             return View(signupVms);
