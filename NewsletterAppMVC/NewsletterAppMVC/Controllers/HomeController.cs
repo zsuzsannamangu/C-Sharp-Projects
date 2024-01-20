@@ -1,4 +1,5 @@
 ﻿using NewsletterAppMVC.Models;
+using NewsletterAppMVC.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -73,11 +74,22 @@ namespace NewsletterAppMVC.Controllers
                     signup.FirstName = reader["FirstName"].ToString();
                     signup.FirstName = reader["LastName"].ToString();
                     signup.EmailAddress = reader["EmailAddress"].ToString();
+                    signup.SocialSecurityNumber = reader["SocialSecurityNumber"].ToString();
                     signups.Add(signup); //we add our newsletter signup to our list
                 }
             }
+            //a common practice is to map your dB objects to a ViewModel in the controller:
+            var signupVms = new List<SignupVm>(); //we create a list
+            foreach (var signup in signups) //loop through all the signups
+            {
+                var signupVm = new SignupVm();
+                signupVm.FirstName = signup.FirstName; //we are mapping properties
+                signupVm.LastName = signup.LastName;
+                signupVm.EmailAddress = signup.EmailAddress;
+                signupVms.Add(signupVm);
+            }
 
-            return View();
+            return View(signupVms);
         }
 
     }

@@ -1,5 +1,5 @@
-﻿@using NewsletterAppMVC.Models
-@model List<NewsletterSignup> 
+﻿@using NewsletterAppMVC.ViewModels
+@model List<SignupVm> 
 
 <!--we pass a list here, our admin page will display all the signups-->
 
@@ -13,18 +13,21 @@
             <!--our Model is a list so we can loop through it-->
             @foreach (var signup in Model)
             {
-                <div class="row">
-                    <div class="col">
-                        @signup.FirstName
-                        <!---->
-                    </div>
-                    <div class="col">
-                        @signup.LastName
-                    </div>
-                    <div class="col">
-                        @signup.EmailAddress
-                    </div>
+            <div class="row">
+                <div class="col">
+                    @signup.FirstName
+                    <!---->
                 </div>
+                <div class="col">
+                    @signup.LastName
+                </div>
+                <div class="col">
+                    @signup.EmailAddress
+                </div>
+                <div class="col">
+                    @signup.SocialSecurityNumber
+                </div>
+            </div>
             }
 
         </div>
