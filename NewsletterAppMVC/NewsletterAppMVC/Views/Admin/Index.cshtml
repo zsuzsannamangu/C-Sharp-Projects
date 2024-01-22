@@ -1,0 +1,45 @@
+﻿
+@using NewsletterAppMVC.ViewModels
+@model List<SignupVm>
+
+<!--we pass a list here, our admin page will display all the signups-->
+
+<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Sign-ups</h5>
+        </div>
+        <div class="card-body">
+            <!--we loop through the list and create a row for each signup:-->
+            <!--our Model is a list so we can loop through it-->
+            <!--Html.BeginForm is a Razor helper method. We have an Unsubscribe Method in the AdminController-->
+            <!--mb stands for margin bottom-->
+            <!--in input: name=Id is the name of the parameter in the Unsubscribe method. type=hidden adds info to the form, but doesn't display it'. this line passes the Id of the record to the Controller method-->
+            @foreach (var signup in Model)
+            {
+                using (Html.BeginForm("Unsubscribe", "Admin", FormMethod.Post))
+                {
+                    <input type="hidden" name="Id" value="@signup.Id" />
+                    <div class="row mb-3">
+                        <div class="col-2">
+                            @signup.FirstName
+                            <!---->
+                        </div>
+                        <div class="col">
+                            @signup.LastName
+                        </div>
+                        <div class="col-4">
+                            @signup.EmailAddress
+                        </div>
+                    </div>
+                    <!--bootstrap has 12 columns, anytime you use col, it divides 12 by how many cols there are-->
+                    <div class="col">
+                        <button type="submit" class="btn btn-danger btn-block">Unsubscribe</button>
+                    </div>
+                }
+
+            }
+
+        </div>
+    </div>
+</div>

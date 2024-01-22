@@ -51,6 +51,8 @@ C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\roslyn\VBCSCompiler.exe
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Antlr3.Runtime.dll
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.dll
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.SqlServer.dll
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Newtonsoft.Json.dll
@@ -62,6 +64,8 @@ C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\System.Web.WebPages.dll
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\System.Web.WebPages.Razor.dll
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\WebGrease.dll
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.xml
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\EntityFramework.SqlServer.xml
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\System.Web.Helpers.xml
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\System.Web.Mvc.xml
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\System.Web.Optimization.xml
@@ -72,8 +76,8 @@ C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Newtonsoft.Json.xml
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Antlr3.Runtime.pdb
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.AssemblyReference.cache
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.CoreCompileInputs.cache
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.CopyComplete
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.dll
 C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\NewsletterAppMVC\NewsletterAppMVC\obj\Debug\NewsletterAppMVC.csproj.AssemblyReference.cache
