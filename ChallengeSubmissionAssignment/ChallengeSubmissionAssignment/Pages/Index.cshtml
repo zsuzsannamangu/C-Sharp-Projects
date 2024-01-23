@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@{
+    var currentTime = DateTime.Now;
+    var greetingMessage = " The Coordinated Universal Time is " + currentTime.ToUniversalTime();
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>@currentTime</h2>
+    <h2>@greetingMessage</h2>
+</div>
