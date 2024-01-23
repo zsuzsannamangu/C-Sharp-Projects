@@ -11,7 +11,7 @@ namespace CodeFirstToNewDatabase
     {
         public SchoolContext() : base()
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<SchoolContext>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<SchoolContext>()); //creates a new db every time we make a change
         }
 
         public DbSet<Student> Students { get; set; } //The context class exposes DbSet properties.
