@@ -48,8 +48,31 @@ namespace CarInsurance.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Table table)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid) //if the user entered all the data correctly
             {
+                decimal quote = 50.00M;
+
+                DateTime currentDate = DateTime.Now;
+                int currentYear = currentDate.Year;
+                int age = currentYear - Convert.ToDateTime(table.DateOfBirth).Year;
+
+                if (currentDate.Month < Convert.ToDateTime(table.DateOfBirth).Month || (currentDate.Month == Convert.ToDateTime(table.DateOfBirth).Month && currentDate.Day < Convert.ToDateTime(table.DateOfBirth).Day))
+                    age--;
+
+                if (age <= 18) quote += 100;
+                if (age >= 19 && age <= 25) quote += 50;
+                if (age > 25) quote += 25;
+
+                if (Convert.ToInt32(table.CarYear) < 2000 || Convert.ToInt32(table.CarYear) > 2015) quote += 25;
+                if (table.CarMake.ToLower() == "porsche") quote += 25;
+                if (table.CarMake.ToLower() == "Porsche" && table.CarModel.ToLower() == "911 carrera") quote += 25;
+
+                if (table.SpeedingTickets > 0) quote += Convert.ToInt32(table.SpeedingTickets) * 10;
+                if (table.DUI == true) quote *= 1.25M;
+                if (table.CoverageType == true) quote *= 1.5M;
+
+                table.Quote = quote;
+
                 db.Tables.Add(table);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -123,41 +146,9 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
-
-        //add logic to calculate a quote
-        public ActionResult Admin(int Id, DateTime dateOfBirth, int carYear, string carMake, string carModel, bool dUI, int speedingTickets, bool coverageType)
+        public ActionResult Admin()
         {
-                decimal quote = 50.00M;
-            
-            DateTime currentDate = DateTime.Now;
-            int currentYear = currentDate.Year;
-            int age = currentYear - Convert.ToDateTime(dateOfBirth).Year;
-
-            if (currentDate.Month < Convert.ToDateTime(dateOfBirth).Month || (currentDate.Month == Convert.ToDateTime(dateOfBirth).Month && currentDate.Day < Convert.ToDateTime(dateOfBirth).Day))
-                age--;
-            
-            quote = (age <= 18) ? + 100.00M : quote; //(condition) ? [true path] : [false path];
-            quote = (age > 19 && age < 25) ? + 50.00M : quote;
-            quote = (age > 26) ? + 25.00M : quote;
-
-            quote = (Convert.ToInt32(carYear) < 2000 || Convert.ToInt32(carYear) > 2015) ? + 25.00M : quote;
-            quote = (carMake.ToLower() == "Porsche" && carModel.ToLower() != "911 Carrera") ? + 25.00M : quote;
-            quote = (carMake.ToLower() == "Porsche" && carModel.ToLower().Contains("carrera")) ? + 50.00M : quote;
-
-            quote = (Convert.ToInt32(speedingTickets) > 0) ? + Convert.ToDecimal(Convert.ToInt32(quote) * Convert.ToInt32(speedingTickets) * 10) : quote;
-            quote = (dUI == true) ? quote + (Decimal.Multiply(quote, .25M)) : quote;
-            quote = (coverageType == true) ? quote + (Decimal.Multiply(quote, .50M)) : quote;
-
-            return View(quote);
-
-            using (InsuranceEntities db = new InsuranceEntities())
-            {
-                var table = new Table();
-                table.Quote = quote;
-                db.Tables.Add(table);
-                db.SaveChanges();
-            }
+            return View(db.Tables.ToList());
         }
-
     }
 }

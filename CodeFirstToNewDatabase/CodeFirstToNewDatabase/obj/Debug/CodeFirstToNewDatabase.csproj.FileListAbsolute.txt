@@ -1,0 +1,12 @@
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\bin\Debug\CodeFirstToNewDatabase.exe.config
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\bin\Debug\CodeFirstToNewDatabase.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\bin\Debug\CodeFirstToNewDatabase.pdb
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\bin\Debug\EntityFramework.dll
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\bin\Debug\EntityFramework.xml
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\obj\Debug\CodeFirstToNewDatabase.csproj.AssemblyReference.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\obj\Debug\CodeFirstToNewDatabase.csproj.CoreCompileInputs.cache
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\obj\Debug\CodeFirstToNewDatabase.csproj.CopyComplete
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\obj\Debug\CodeFirstToNewDatabase.exe
+C:\Users\zsuzsi\Documents\TTA-C-Sharp-Projects\CodeFirstToNewDatabase\CodeFirstToNewDatabase\obj\Debug\CodeFirstToNewDatabase.pdb
