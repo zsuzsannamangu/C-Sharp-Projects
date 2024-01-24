@@ -65,7 +65,7 @@ namespace CarInsurance.Controllers
 
                 if (Convert.ToInt32(table.CarYear) < 2000 || Convert.ToInt32(table.CarYear) > 2015) quote += 25;
                 if (table.CarMake.ToLower() == "porsche") quote += 25;
-                if (table.CarMake.ToLower() == "Porsche" && table.CarModel.ToLower() == "911 carrera") quote += 25;
+                if (table.CarMake.ToLower() == "porsche" && table.CarModel.ToLower() == "911 carrera") quote += 25;
 
                 if (table.SpeedingTickets > 0) quote += Convert.ToInt32(table.SpeedingTickets) * 10;
                 if (table.DUI == true) quote *= 1.25M;
