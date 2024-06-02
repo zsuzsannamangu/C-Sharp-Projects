@@ -1,5 +1,5 @@
 # C# Projects
-These are some small projects I made using C# and .NET Framework.
+These are some projects I made using C# and .NET Framework.
 
 ## [TwentyOne game](https://github.com/zsuzsannamangu/TTA-C-Sharp-Projects/tree/main/TwentyOneGame)
 This is a fully functional Blackjack or Twenty One Game, but without front-end code. It also has a log built-in that records all cards that were dealt, with a timestamp. Any error message will be recorded to a database. For example, if the user enters other than a whole, positive number for their bet, an error message will be thrown, which will be recorded in the database. Once the user finishes the game, they are asked whether they want to play again. It even has functionality for calculating Aces which can be 1 or 11 according to the user's choice.
