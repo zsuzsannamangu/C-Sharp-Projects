@@ -56,7 +56,7 @@ To run these projects locally, follow these steps:
     - Press `F5` to run the desktop application.
 
 ## Technologies used
-C#, .NET Framework, MVC, Entity Framework, Visual Studio as IDE
+_C#, .NET Framework, MVC, Entity Framework, Visual Studio as IDE_
 
 ### Note
 Visual Studio for Mac does not work well. It is recommended that you use Visual Studio only on Windows. If you have a Mac, you can create a virtual PC inside of your Mac using Parallels Desktop.
