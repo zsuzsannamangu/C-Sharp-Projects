@@ -61,6 +61,10 @@ _C#, .NET Framework, MVC, Entity Framework, Visual Studio as IDE, virtual PC ins
 ### Note
 Visual Studio for Mac does not work well. It is recommended that you use Visual Studio only on Windows. If you have a Mac, you can create a virtual PC inside of your Mac using [Parallels Desktop](https://www.parallels.com/).
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt) file for details.
+
 ## Author
 Zsuzsanna Mangu, zsuzsannamangu@gmail.com
 
